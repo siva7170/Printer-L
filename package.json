@@ -1,0 +1,30 @@
+{
+  "name": "@siva7170/printer-l",
+  "version": "1.0.0",
+  "description": "Node.js - Windows - Print PDF file to Printer",
+  "keywords": [
+    "Print PDF",
+    "Thermal Printer",
+    "Print PDF to printer on windows",
+    "windows"
+  ],
+  "type": "module",
+  "main": "./../index.js",
+  "homepage": "https://github.com/siva7170/printer-l",
+  "bugs": {
+    "url": "https://github.com/siva7170/printer-l/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siva7170/printer-l.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Siva V <siva7170430@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "util": "^0.12.5"
+  }
+}
