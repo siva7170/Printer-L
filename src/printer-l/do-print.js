@@ -7,7 +7,7 @@ const __dirname = path.dirname(__filename);
 
 async function doPrint(source) {
   try {
-    const target = { printpreview: 'no', filetype: 'PDF', printer_name: '', srcPath:'' }; 
+    const target = { printpreview: 'no' }; 
     const extended = Object.assign(target, source);
     //const exePath = path.resolve(__dirname, './../depends/PrintL.exe');
     const exePath = path.resolve(__dirname, './../../depends/PrinterL2.exe');

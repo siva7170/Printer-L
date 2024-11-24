@@ -21,10 +21,20 @@ const pdfPath = path.resolve(__dirname, './../out_z4.pdf');
 
 console.log('>>>',pdfPath)
 
+// console.log('Do Print: ',await doPrint({ 
+//     printer_name: '80mm Series Printer', 
+//     srcPath:pdfPath,
+//     printpreview:'yes',
+//     filetype:'PDF'
+// }));
+
+const imgPath = path.resolve(__dirname, './../screenshot_302.png');
+
 console.log('Do Print: ',await doPrint({ 
     printer_name: '80mm Series Printer', 
-    srcPath:pdfPath,
-    printpreview:'yes'
+    srcPath:imgPath,
+    printpreview:'yes',
+    filetype:'IMG'
 }));
 
 //getPrinterListInfo();

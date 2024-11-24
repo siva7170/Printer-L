@@ -1,11 +1,13 @@
 {
   "name": "@siva7170/printer-l",
-  "version": "1.0.2",
-  "description": "Node.js - Windows - Print PDF file to Printer",
+  "version": "1.0.3",
+  "description": "Node.js - Windows - Print PDF and Image file to Printer",
   "keywords": [
     "Print PDF",
+    "Print Image",
     "Thermal Printer",
     "Print PDF to printer on windows",
+    "Print Image to printer on windows",
     "windows"
   ],
   "type": "module",
