@@ -1,6 +1,6 @@
 {
   "name": "@siva7170/printer-l",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Node.js - Windows - Print PDF file to Printer",
   "keywords": [
     "Print PDF",

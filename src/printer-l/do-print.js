@@ -25,8 +25,6 @@ async function doPrint(source) {
         extended.srcPath
     ];
 
-    console.log('args',args);
-
     const { stdout } = await execFileAsync(exePath, args);
 
 
